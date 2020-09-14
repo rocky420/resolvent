@@ -1,3 +1,5 @@
+The code can be run with the following command: [r,su,ss,sv,U0,yP,UP,dU0,dr] = resolventSVD(44000,6,60,0.45,100,5). A video tutorial of Mitul Luhar can be found in https://www.youtube.com/watch?v=yLj0WyHM8hM.
+
 This series of MATLAB functions and scripts performs the resolvent analysis proposed by Dr. Beverley McKeon and Dr. Ati Sharma (see McKeon, B.J. and Sharma, A.S., 2010, A critical-layer framework for turbulent pipe flow. Journal of Fluid Mechanics, 658, 336-382), and offers a few related utilities.  
 
 McKeon and Sharma (2010) employed a projection onto a series of divergence-free basis functions to satisfy mass continuity and eliminate the pressure term in the Navier-Stokes equations, following Meseguer and Trefethen (2003, Linearized pipe flow to Reynolds number 10^7, Journal of Computational Physics, 186 (1): 178-197).  The software provided here does not employ this projection.  The Navier-Stokes resolvent is formulated in terms of primitive variables -- pressure and mass continuity are retained explicitly.  This provides some information on the pressure field, and also allows for more flexibility on the boundary conditions imposed.
